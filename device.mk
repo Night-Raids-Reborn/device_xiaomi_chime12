@@ -187,6 +187,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(LOCAL_PATH)/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
+# HALs
+QCOM_SOONG_NAMESPACE := $(DEVICE_PATH)/hals
+DEVICE_SPECIFIC_AUDIO_PATH := $(DEVICE_PATH)/hals/audio
+DEVICE_SPECIFIC_DISPLAY_PATH := $(DEVICE_PATH)/hals/display
+DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/hals/media
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
