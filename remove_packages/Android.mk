@@ -8,17 +8,13 @@ LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
     Camera2 \
-    Chrome \
-    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
     DevicePolicyPrebuilt \
     DMService \
-    Drive \
     GCS \
     GoogleCamera \
-    Maps \
     Music \
     MyVerizonServices \
     OBDM_Permissions \
@@ -29,8 +25,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Ornament \
     PixelLiveWallpaperPrebuilt \
     PlayAutoInstallConfig \
-    PrebuiltGmail \
-    RecorderPrebuilt \
     SafetyHubPrebuilt \
     SCONE \
     ScribePrebuilt \

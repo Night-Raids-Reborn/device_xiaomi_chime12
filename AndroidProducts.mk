@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_chime.mk
+    $(LOCAL_DIR)/spark_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_chime-user \
-    ancient_chime-userdebug \
-    ancient_chime-eng
+    spark_chime-user \
+    spark_chime-userdebug \
+    spark_chime-eng

@@ -12,19 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
 # Inherit some common AncientOSS stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
-ANCIENT_OFFICIAL := true
-FORCE_OTA := true
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # GApps
-ANCIENT_GAPPS := true
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ancient_chime
+PRODUCT_NAME := spark_chime
 PRODUCT_DEVICE := chime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6115
