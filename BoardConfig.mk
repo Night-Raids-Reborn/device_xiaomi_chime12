@@ -61,7 +61,7 @@ BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/chime
-TARGET_KERNEL_CONFIG := vendor/chime_defconfig
+TARGET_KERNEL_CONFIG := guuji_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc
 
 # Kernel - Prebuilt images
